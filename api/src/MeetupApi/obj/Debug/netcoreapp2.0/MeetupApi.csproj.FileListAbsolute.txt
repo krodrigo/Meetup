@@ -1,0 +1,12 @@
+C:\prj\MeetUp\api\src\MeetupApi\bin\Debug\netcoreapp2.0\MeetupApi.xml
+C:\prj\MeetUp\api\src\MeetupApi\bin\Debug\netcoreapp2.0\MeetupApi.deps.json
+C:\prj\MeetUp\api\src\MeetupApi\bin\Debug\netcoreapp2.0\MeetupApi.runtimeconfig.json
+C:\prj\MeetUp\api\src\MeetupApi\bin\Debug\netcoreapp2.0\MeetupApi.runtimeconfig.dev.json
+C:\prj\MeetUp\api\src\MeetupApi\bin\Debug\netcoreapp2.0\MeetupApi.dll
+C:\prj\MeetUp\api\src\MeetupApi\bin\Debug\netcoreapp2.0\MeetupApi.pdb
+C:\prj\MeetUp\api\src\MeetupApi\obj\Debug\netcoreapp2.0\MeetupApi.csprojResolveAssemblyReference.cache
+C:\prj\MeetUp\api\src\MeetupApi\obj\Debug\netcoreapp2.0\MeetupApi.csproj.CoreCompileInputs.cache
+C:\prj\MeetUp\api\src\MeetupApi\obj\Debug\netcoreapp2.0\MeetupApi.AssemblyInfoInputs.cache
+C:\prj\MeetUp\api\src\MeetupApi\obj\Debug\netcoreapp2.0\MeetupApi.AssemblyInfo.cs
+C:\prj\MeetUp\api\src\MeetupApi\obj\Debug\netcoreapp2.0\MeetupApi.dll
+C:\prj\MeetUp\api\src\MeetupApi\obj\Debug\netcoreapp2.0\MeetupApi.pdb

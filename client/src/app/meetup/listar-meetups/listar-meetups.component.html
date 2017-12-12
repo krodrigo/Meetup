@@ -1,0 +1,47 @@
+<div class="container main-container">
+    <h2>Lista dos próximos meetups</h2>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="pull-left">
+                <a class="btn btn-primary" id="novoEvento" [routerLink]="['/incluir-meetup']">
+                    <span title="Novo Meetup" class="glyphicon glyphicon-plus-sign"></span> Novo Meetup
+                </a>
+            </div>
+        </div>
+    </div>
+    <br />
+    
+    <div class="page-size">
+        <div class="panel panel-default">
+            <table class="table table-striped" *ngIf='meetups && meetups.length'>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Data</th>
+                        <th>Local</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let meetup of meetups'>
+                        <td>{{ meetup.nome }}</td>
+                        <td>{{ meetup.data | date:'dd/MM/yyyy' }}</td>
+                        <td>{{ meetup.local }}</td>
+                        <td>
+                                <a [routerLink]="['/detalhar-meetup', meetup.id]" title="Detalhar" class="btn btn-primary">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </a>
+                                <a [routerLink]="['/editar-meetup', meetup.id]" title="Editar" class="btn btn-primary">
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                </a>
+                                <a [routerLink]="['/excluir-meetup', meetup.id]" title="Excluir" class="btn btn-primary">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

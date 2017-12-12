@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MeetupApi</name>
+    </assembly>
+    <members>
+        <member name="T:MeetupApi.Controllers.MeetupController">
+            <summary>
+            Controller responsável pelas operações de meetup
+            </summary>
+        </member>
+        <member name="M:MeetupApi.Controllers.MeetupController.#ctor(MeetupApi.Data.MeetupApiContext)">
+            <summary>
+            Construtor da classe
+            </summary>
+            <param name="context">Contexto do Entity Framework</param>
+        </member>
+        <member name="F:MeetupApi.Controllers.MeetupController._context">
+            <summary>
+            Contexto do Entity Framework
+            </summary>
+        </member>
+        <member name="M:MeetupApi.Controllers.MeetupController.PostMeetup(MeetupApi.Models.Meetup)">
+            <summary>
+            Incluir um meetup
+            </summary>
+            <param name="meetup">Dados do meetup</param>
+            <returns></returns>
+        </member>
+        <member name="M:MeetupApi.Controllers.MeetupController.GetMeetup">
+            <summary>
+            Retornar uma lista de meetups cadastrados
+            </summary>
+            <returns>Lista de meetups</returns>
+        </member>
+        <member name="M:MeetupApi.Controllers.MeetupController.GetMeetup(System.Int32)">
+            <summary>
+            Retornar um meetup
+            </summary>
+            <param name="id">Identificação do meetup</param>
+            <returns>Meetup</returns>
+        </member>
+        <member name="M:MeetupApi.Controllers.MeetupController.PutMeetup(System.Int32,MeetupApi.Models.Meetup)">
+            <summary>
+            Alterar um meetup
+            </summary>
+            <param name="id">Identificação do Meetup</param>
+            <param name="meetup">Dados do meetup</param>
+            <returns></returns>
+        </member>
+        <member name="M:MeetupApi.Controllers.MeetupController.DeleteMeetup(System.Int32)">
+            <summary>
+            Apagar um meetup
+            </summary>
+            <param name="id">Identificação do Meetup</param>
+            <returns></returns>
+        </member>
+        <member name="M:MeetupApi.Controllers.MeetupController.MeetupExists(System.Int32)">
+            <summary>
+            Verificar a existência de um meetup
+            </summary>
+            <param name="id">Identificação do Meetup</param>
+            <returns>Resultado da consulta</returns>
+        </member>
+    </members>
+</doc>
